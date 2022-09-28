@@ -1,0 +1,111 @@
+
+:root{
+    --green: rgb(39, 174, 96);
+    --mark: rgba(39, 174, 96, 0.2);
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+
+.main{
+    width: 450px;
+    height: 200px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    margin: 100px auto;
+}
+
+h1 {
+    font-size: 48px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.enter{
+    margin: 64px auto;
+}
+
+.enter h3{
+    font-weight: 100;
+}
+
+.enter .in button{
+    font-family:inherit;
+    font-size: 14px;
+    padding: 14px;
+    color: white;
+    background-color: var(--green);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.enter .in button:hover{
+    background-color: rgb(118, 216, 159);
+    transition: 800ms;
+}
+
+.main .enter input {
+    height: 45px;
+    width: 300px;
+    line-height: 30px;
+    border: 3px solid white;
+    font-family:inherit;
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    vertical-align: bottom;
+}
+
+.highlight{
+    background-color: var(--mark);
+}
+
+
+p{
+    font-size: .80rem;
+    font-weight: 100;
+}
+
+.me{
+    font-size: 14px;
+    color: var(--green);
+    text-decoration: underline;
+}
+
+#result{
+    font-size: 16px;
+    color: #999;
+    font-weight: 700;
+}
+
+#resultn{
+    margin: 0;
+    font-family:inherit;
+    font-size: 28px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: var(--green);
+}
+
+#resultn2{
+    margin: 0;
+    font-family:inherit;
+    font-size: 16px;
+    color: white;
+}
+
+.redlight{
+
+    color: red;
+
+}
+
+.main .enter #frase{
+    font-family:inherit;
+    color: var(--green);
+
+    font-size: 1rem ;
+}
